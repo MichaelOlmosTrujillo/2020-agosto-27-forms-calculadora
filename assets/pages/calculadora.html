@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../css/cssCalculadora.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center alinear2 flex-column">
+        <div class="col-8 d-flex alinear">
+            <input class="form-control col-4" type="number" id="num1" placeholder="ingrese un número">
+            <input class="form-control col-4" type="number" id="num2" placeholder="ingrese un número">
+            <button id="resta" class="btn btn-warning">-</button>
+            <button id="suma" class="btn btn-warning">+</button>
+            <button id="multiplicacion" class="btn btn-warning">x</button>
+            <button id="division" class="btn btn-warning">/</button>
+        </div>
+        <div>
+            <button class="btn btn-dark ml-3" id="promedio">promedio</button>
+        </div>
+        <div class="ml-3 mt-3">
+            <h2 id="respuesta"></h2>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./../js/js-calculadora.js"></script>
+</body>
+
+</html>
