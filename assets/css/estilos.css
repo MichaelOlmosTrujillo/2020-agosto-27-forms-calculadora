@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.alert {
+    background-color: rgba(165, 42, 42, 0.198) !important;
+}
+
+.mensajeAlerta {
+    color: brown !important;
+}
+
+div>input {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+span {
+    padding: 0px;
+    margin: 0px;
+}

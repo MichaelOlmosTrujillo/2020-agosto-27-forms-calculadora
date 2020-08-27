@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" onclick="validarForm(event)">
+        <div class="form-group col-8">
+
+            <span id="mensajeAlerta"></span>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+            <span id="mensajeAlerta2"></span>
+            <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Escribe tu apellido">
+        </div>
+        <button type="submit" class="btn btn-primary ml-3">Enviar</button>
+    </form>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
