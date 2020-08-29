@@ -50,8 +50,9 @@ function validarForm(event) {
 
     if (validar) {
         swal("¡Validaste el formulario!", "¡click en el botón para salir!", "Exitos");
-
-        window.location = './assets/pages/calculadora.html';
+        setTimeout(function () {
+            window.location = './assets/pages/calculadora.html';
+        }, 5000);
     } else {
         swal("¡No has validado el formulario y no puedes enviarlo ni pasar a usar la CALCULADORA!");
 
